@@ -1,0 +1,27 @@
+h1 {
+    color:#f07167;
+}
+
+/* Para los links cuando aún no han sido visitados*/
+a:link {
+    color: #fb8500;
+    /* Para quitar el subrayado del link*/
+    text-decoration: none;
+}
+/* Para cuando el link ha sido visitado*/
+a:visited{
+    color: #219ebc;
+    /* Para quitar el subrayado del link*/
+    text-decoration: none
+}
+/*Cuando nos ponemos encima del link*/
+a:hover{
+    color:#8ecae6;
+    /* Para agregar el subrayado cuando estemos encima del link*/
+    text-decoration: underline;
+}
+/* En el momento en que se da click en un elemento, se le conoce como estado activo*/
+a:active{
+    color: #023047;
+    text-decoration: underline;
+}
