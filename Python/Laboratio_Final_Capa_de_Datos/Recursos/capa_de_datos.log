@@ -1,0 +1,165 @@
+10:33:16 PM: DEBUG [logger_base.py:12] Mensaje DEBUG
+10:33:16 PM: INFO [logger_base.py:13] Mensaje INFO
+10:33:16 PM: WARNING [logger_base.py:14] Mensaje WARNING
+10:33:16 PM: ERROR [logger_base.py:15] Mensaje ERROR
+10:33:16 PM: CRITICAL [logger_base.py:16] Mensaje CRITICAL
+10:33:44 PM: DEBUG [Conexion.py:17] Conexión exitosa: <connection object at 0x000002AABBDA2460; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+10:36:44 PM: DEBUG [Conexion.py:21] Conexión exitosa: <connection object at 0x0000025FFB7F2460; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+10:37:18 PM: DEBUG [Conexion.py:21] Conexión exitosa: <connection object at 0x000001A664992460; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1', closed: 0>
+10:47:23 PM: ERROR [Conexion.py:28] Ocurrió un error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+10:47:40 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000016F49EABFA0>
+10:48:11 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000016E1305BFA0>
+10:49:31 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x000002C3EC43BFA0>
+10:49:31 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000002C3EDFF8040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10:50:10 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000027680FABFA0>
+10:50:10 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000027682B88040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10:51:43 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000025DE27EBFA0>
+10:51:43 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000025DE43B8040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:29:11 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x000002A48AD889A0>
+11:30:36 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x00000265B7F28B20>
+11:32:10 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x00000287CEA82FB0>
+11:32:10 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x00000287CEA74040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:32:10 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x00000287CD01D620; closed: 0>
+11:32:10 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:32:10 PM: ERROR [CursorPool.py:20] Error en la conexión: name 'log' is not defined
+11:32:40 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000029585C88C10>
+11:32:40 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000029585C5C040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:32:40 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x00000295841E9620; closed: 0>
+11:32:40 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:32:40 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:32:40 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:32:40 PM: DEBUG [UsuarioDAO.py:38] (1, 'jperez', '123')
+11:32:40 PM: DEBUG [UsuarioDAO.py:38] (2, 'kgomez', '456')
+11:33:50 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000014D86E38CA0>
+11:33:50 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000014D86E0C040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:33:50 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000014D85409620; closed: 0>
+11:33:50 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:33:50 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:33:50 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:33:50 PM: DEBUG [UsuarioDAO.py:40] (1, 'jperez', '123')
+11:33:50 PM: DEBUG [UsuarioDAO.py:40] (2, 'kgomez', '456')
+11:34:48 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x000001C2A9D43190>
+11:34:48 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000001C2A9D38040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:34:48 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000001C2A833D620; closed: 0>
+11:34:48 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:34:48 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:34:48 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:34:48 PM: DEBUG [UsuarioDAO.py:40] (1, 'jperez', '123')
+11:34:48 PM: DEBUG [UsuarioDAO.py:40] (2, 'kgomez', '456')
+11:34:48 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000001C2A9D388C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:34:48 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000001C2A833D620; closed: 0>
+11:34:48 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:34:48 PM: ERROR [CursorPool.py:20] Error en la conexión: name 'usuario' is not defined
+11:35:28 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x000001EFEA2BB1C0>
+11:35:28 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000001EFEA28C040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:35:28 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000001EFE8819620; closed: 0>
+11:35:28 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:35:28 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:35:28 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:35:28 PM: DEBUG [UsuarioDAO.py:40] (1, 'jperez', '123')
+11:35:28 PM: DEBUG [UsuarioDAO.py:40] (2, 'kgomez', '456')
+11:35:28 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000001EFEA28C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:35:28 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000001EFE8819620; closed: 0>
+11:35:28 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:35:28 PM: ERROR [CursorPool.py:20] Error en la conexión: name 'password' is not defined
+11:35:51 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x000002085618B1C0>
+11:35:51 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000002085615C040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:35:51 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x00000208546F9620; closed: 0>
+11:35:51 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:35:51 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:35:51 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:35:51 PM: DEBUG [UsuarioDAO.py:40] (1, 'jperez', '123')
+11:35:51 PM: DEBUG [UsuarioDAO.py:40] (2, 'kgomez', '456')
+11:35:51 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000002085615C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:35:51 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x00000208546F9620; closed: 0>
+11:35:51 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:35:51 PM: ERROR [CursorPool.py:20] Error en la conexión: column "usuario" of relation "usuario" does not exist
+LINE 1: INSERT INTO usuario(usuario, password) VALUES ('pfar6', 1023...
+                            ^
+
+11:38:30 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x000002033A99B1C0>
+11:38:30 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000002033A96C040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:38:30 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000020338F49620; closed: 0>
+11:38:30 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:38:30 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:38:30 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:38:30 PM: DEBUG [UsuarioDAO.py:40] (1, 'jperez', '123')
+11:38:30 PM: DEBUG [UsuarioDAO.py:40] (2, 'kgomez', '456')
+11:38:30 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x000002033A96C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:38:30 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000020338F49620; closed: 0>
+11:38:30 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:38:30 PM: ERROR [CursorPool.py:20] Error en la conexión: 'Usuario' object has no attribute 'username'
+11:39:10 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000023E9AE9B1C0>
+11:39:10 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000023E9AE6C040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:39:10 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000023E99449620; closed: 0>
+11:39:10 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:39:10 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:39:10 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:39:10 PM: DEBUG [UsuarioDAO.py:40] (1, 'jperez', '123')
+11:39:10 PM: DEBUG [UsuarioDAO.py:40] (2, 'kgomez', '456')
+11:39:10 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000023E9AE6C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:39:10 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000023E99449620; closed: 0>
+11:39:10 PM: DEBUG [UsuarioDAO.py:30] Nuevos datos: usuario: <function Usuario.__str__ at 0x0000023E9AE9E9E0>
+11:39:10 PM: DEBUG [UsuarioDAO.py:31] Numero de datos insertados: 1
+11:39:10 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:39:10 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:47:12 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000011657ACB7F0>
+11:47:12 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000011657A9C040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:47:12 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000001165602D620; closed: 0>
+11:47:12 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:47:12 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:47:12 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:47:12 PM: DEBUG [UsuarioDAO.py:47] (1, 'jperez', '123')
+11:47:12 PM: DEBUG [UsuarioDAO.py:47] (2, 'kgomez', '456')
+11:47:12 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000011657A9C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:47:12 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000001165602D620; closed: 0>
+11:47:12 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:47:12 PM: ERROR [CursorPool.py:20] Error en la conexión: Usuario.informacion() missing 1 required positional argument: 'self'
+11:48:15 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000016C7E2791E0>
+11:48:15 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000016C7E24C040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:48:15 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000016C7C84D620; closed: 0>
+11:48:15 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:48:15 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:48:15 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:48:15 PM: DEBUG [UsuarioDAO.py:47] (1, 'jperez', '123')
+11:48:15 PM: DEBUG [UsuarioDAO.py:47] (2, 'kgomez', '456')
+11:48:15 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000016C7E24C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:48:15 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000016C7C84D620; closed: 0>
+11:48:15 PM: DEBUG [UsuarioDAO.py:30] Nuevos datos: Persona: pfar6 - 1023
+11:48:15 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:48:15 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:48:15 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000016C7E24C260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:48:15 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000016C7C84D620; closed: 0>
+11:48:15 PM: DEBUG [UsuarioDAO.py:37] Valores que se han actualizado: Persona: drar - 3721
+11:48:15 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:48:15 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:51:39 PM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000025382201570>
+11:51:39 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x00000253821E0040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:39 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000002538078D620; closed: 0>
+11:51:39 PM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+11:51:39 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:51:39 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:51:39 PM: DEBUG [UsuarioDAO.py:53] (1, 'jperez', '123')
+11:51:39 PM: DEBUG [UsuarioDAO.py:53] (2, 'drar', '3721')
+11:51:39 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x00000253821E08C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:39 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000002538078D620; closed: 0>
+11:51:39 PM: DEBUG [UsuarioDAO.py:30] Nuevos datos: Persona: pfar6 - 1023
+11:51:39 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:51:39 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:51:39 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x00000253821E0260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:39 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000002538078D620; closed: 0>
+11:51:39 PM: DEBUG [UsuarioDAO.py:37] Valores que se han actualizado: Persona: drar - 3721
+11:51:39 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:51:39 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+11:51:39 PM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x00000253821E0BF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11:51:39 PM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x000002538078D620; closed: 0>
+11:51:39 PM: DEBUG [UsuarioDAO.py:44] Id del usuario eliminado: 1
+11:51:39 PM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+11:51:39 PM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
+12:38:42 AM: DEBUG [Conexion.py:25] Se creó el pool exitósamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000025332A1BF70>
+12:38:42 AM: DEBUG [Conexion.py:37] Conexión exitosa: <connection object at 0x0000025334560040; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:38:42 AM: DEBUG [CursorPool.py:13] Cursor creado: <cursor object at 0x0000025332B5D620; closed: 0>
+12:38:42 AM: DEBUG [UsuarioDAO.py:21] Se mandó a listar la database
+12:38:42 AM: DEBUG [CursorPool.py:17] Cerrando bloque with.
+12:38:42 AM: DEBUG [CursorPool.py:23] Se guardaron los datos en el database.
