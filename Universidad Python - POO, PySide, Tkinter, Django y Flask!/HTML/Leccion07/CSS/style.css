@@ -4,10 +4,22 @@
     padding:0;
 }
 
-h1{
+.title{
+    color: #f72585
+}
+
+/* Un identificador CSS. Los identificadores se le debe aplicar a solo un elemento*/
+#principal_title{
     color: #f72585;
     text-align: center;
     margin: 15px;
+}
+
+#title_links{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0px 580px;
+    padding: 3px ;
 }
 h2{
     color: #3f37c9;
@@ -15,6 +27,7 @@ h2{
 p{
     color: #457b9d;
 }
+
 /* A esto se le llama clase en CSS*/
 .card{
     border: 10px solid #560bad;
@@ -22,4 +35,10 @@ p{
     text-align: center;
     margin: 15px 100px;
     padding: 15px;
+}
+.title_link{
+    background-color: black;
+    color: white;
+    margin: 3px;
+    text-decoration: none;
 }
