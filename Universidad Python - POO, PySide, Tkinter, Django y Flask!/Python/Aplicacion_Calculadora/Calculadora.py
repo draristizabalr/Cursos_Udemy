@@ -164,6 +164,7 @@ class Calculadora(tk.Tk):
                 self.entrada_texto.set(self.expresion)
         except Exception as e:
             messagebox.showerror('ERROR', f'Ha ocurrido un error: {e}')
+
 if __name__ == '__main__':
     calculadora = Calculadora()
     calculadora.mainloop()

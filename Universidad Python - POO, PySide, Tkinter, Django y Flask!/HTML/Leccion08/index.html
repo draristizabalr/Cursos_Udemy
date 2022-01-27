@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <h1>Formularos en HTML</h1>
+    <!--Esta etiqueta es para crear un formulario en HTML-->
+    <!--Si se quiere NO validar los datos requerido en la etiqueta de "form" se puede dar el atributo de novalidate-->
+    <form action='mi_servidor' autocomplete='off'>
+        <fieldset>
+            <legend>Personal Data</legend>
+            
+            <label for='idPersona'>Person ID:</label><br/>
+            <input type='text' id='idPersona' name='idPersona' placeholder='Write a name'
+            readonly='true' value='100' disabled='true'/><br/>
+
+            <input type='hidden' id='sistem' name='sistem' value='ASP'>
+
+            <label for='name'>Name:</label><br/>
+            <input type='text' id='name' name='name' placeholder='Write a name'
+            required='true'/><br/>
+
+            <label for='lastname'>Last name:</label><br/>
+            <input type='text' id='lastname' name='lastname' placeholder='Write a last name'
+            required='true'/><br/>
+
+            <label for='password'>Password:</label><br/>
+            <input type='password' id='password' name='password' placeholder='Password'
+            required='true'/><br/>
+            <!--El argumento "(required='true')" es para hacer obligatorio su registro en el formulario-->
+            <label for='email'>Email:</label><br/>
+            <input type='email' id='email' name='email' placeholder='Write an email'><br/>
+
+            <!--En este ejemplo se deja por defecto que los valores numéricos sean enteros únicamente, pero si se necesita
+            que tengan valores con punto decimal se debe agregar el argumento "(step='any')"-->
+            <label for='edad'>Edad:</label><br/>
+            <input type='number' if='edad' name='edad' placeholder='Age' max='50' min='0'/><br/>
+
+            <label>Gender</label>
+            <input type='radio' id='female' name='gender' value='female'/>
+            <label for='female'>Female</label>
+            <input type='radio' id='male' name='gender' value='male'/>
+            <label for='male'>Male</label><br/>
+            
+            <label>Favorite Music:</label><br/>
+            <input type='checkbox' id='classic music' name='music' value='classic'/>
+            <label for='classic music'>Classic</label>
+            <input type='checkbox' id='reggaeton' name='music' value='reggaeton'/>
+            <label for='reggaeton'>Reggaeton</label><br/>
+            <input type='checkbox' id='reggae' name='music' value='reggae'/>
+            <label for='reggae'>Reggae</label>
+            <input type='checkbox' id='metal' name='music' value='metal'/>
+            <label for='metal'>Metal</label><br/>
+            <input type='checkbox' id='rap' name='music' value='rap'/>
+            <label for='rap'>Rap</label>
+            <input type='checkbox' id='edm' name='music' value='edm'/>
+            <label for='edm'>EDM</label><br/>
+            <br/>
+
+            <label for='cars'>Favorite Cars:</label><br/>
+            <select id='cars' name='cars'>
+                <option value='volvo'>Volvo</option>
+                <option value='bmw'>BMW</option>
+                <option value='audi'>Audi</option>
+                <!--Se agrega el argumento de "(selected='true') para definir el valor que se quiera tener en un inicio"-->
+                <option value='renault'selected='true'>Renault</option>
+                <option value='chevrolet'>Chevrolet</option>
+                <option value='ford'>Ford</option>
+                <option value='kia'>KIA</option>
+                <option value='fiat'>FIAT</option>
+            </select><br/><br/>
+            
+            <label for='comment'>Comments</label><br/>
+            <textarea id='comment' name='comment' rows='2' cols='50'
+            >Add your comments here ...
+            </textarea><br/>
+
+            <!--Elemento botón en HTML-->
+            <br/><input type='submit' value='Send'/>
+            <input type='submit' formnovalidate='formnovalidate' value='No validate send'/>
+            <input type='reset' value='Reset data'>
+
+        </fieldset>
+    </form>
+</body>
+</html>
