@@ -1,0 +1,9 @@
+/* Esto es para dar un estilo a un grupo de elementos HTML, se separan con comas*/
+h1, h2, p{
+    color: red;
+}
+
+/* Clases para elementos especificos */
+p.centrar{
+    text-align: center;
+}
