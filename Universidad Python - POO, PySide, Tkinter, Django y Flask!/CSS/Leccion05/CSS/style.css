@@ -1,0 +1,29 @@
+h1{
+    color: #ef476f;
+    text-align:center;
+    background-color: beige;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ced4da;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-decoration: overline underline;
+}
+
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+    /* La caracteristica de "direction" es para dar la orientación en la cual se lee un texto "ltr" de izquierda a derecha (valor por default) o "rtl" de derecha a izquierda.
+    direction:rtl;*/
+    text-indent: 30px;
+    line-height: 2; /* El valor por default de esta caracteristica es 1.2, pero el espacio entre lineas varía dependiendo de la fuente de la letra*/
+    white-space: normal;
+    text-shadow: 1px 1px 2px #ced3da;
+}

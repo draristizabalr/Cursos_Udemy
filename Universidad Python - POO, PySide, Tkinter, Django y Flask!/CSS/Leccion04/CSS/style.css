@@ -1,0 +1,16 @@
+/* La caracteristica de "background-attachment" es para cuando se hace scroll en la página. Si se pone "fixed" la imagen se mantiene fija del
+así se haga scroll en la página y si se pone "scroll" (valor por default) se movera cuando se realize un scroll en la página */
+body{
+    color: cornsilk;
+    /*background-color: dodgerblue;
+    background-image: url('/img/fondo.png');
+    background-repeat: no-repeat;
+    background-position: top right;*/
+    background-attachment: fixed;
+    background: url('/img/fondo.png') no-repeat right top;
+}
+
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}
