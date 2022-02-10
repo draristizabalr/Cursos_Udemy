@@ -1,0 +1,56 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+/* La caracteristicas "posisition" tiene tres posibilidades:
+        1) static (default): Esta es la que viene por default en los elementos HTML y no se puede configurar su posicionamiento. Como dice su nombre es estatico.
+        2) relative: Con respecto a su posición inicial se puede mover el elemento con las caracteristicas (top, right, bottom y left). La posición no afectará los otros
+            las posiciones de los otros elementos.
+        3) fixed: En este tipo de posicionamiento se le indica al elemento su posición con respecto a la pantalla, con las mismas caracteristicas anteriores (top, right, 
+            bottom y left). El elemento ya sale del espacio de los elementos y este elemento queda fijo en la ventana, es decir que si se realizar scroll en la página 
+            el elemento se mantiene en la posición que se le indicó al elemento.
+        4) absolute: Se usa más que todo dentro de elementos "div", ya que tiene en cuenta el espacio del en el que está contenido. Si no está contenido en ningun 
+            elemento "div", este comando tendrá como referencia el document body de nuestro archivo HTML, es decir todo el espacio de la página. El posicionamiento 
+            absoluto solo sirve si el elemento padre no tiene un posicionamiento static.
+        5) sticky: Es la combinación de dos tipos de posicionamiento (relative + fixed). Mientras el elemento esté dentro del document body funciona como un elemento de 
+            posicionamiento relativo, pero en el momento en que el elemento salga de pantalla este se movera y se mantendrá en pantalla como un elemento de posicionamiento
+            fixed. Es necesario para navegadores como Safari o Internet Explorer usar otra propiedad adicional para que este posicionamiento funciones, la propiedad 
+            "position: -webkit.sticky"
+            
+*/
+div.static{
+    position: static; /* No es necesario definir static ya que esta es la propiedad por default */
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+div.relativo{
+    position: relative;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+}
+div.fixed{    
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    /*max-width:50%;*/
+    border: 3px solid firebrick;
+    /*margin: auto;*/
+}
+div.absoluto{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+}
+div.sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    border: 3px solid firebrick;
+}

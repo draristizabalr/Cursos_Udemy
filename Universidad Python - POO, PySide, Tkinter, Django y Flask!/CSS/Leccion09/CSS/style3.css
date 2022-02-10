@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /*overflow: visible; Esta es la propiedad por default así que no es necesario escribirlo*/
+    /*overflow: hidden; Esta propiedad es para ocultar todo lo que sale del elemento*/
+    /*overflow: scroll; Esta propiedad es para ocultar lo que sale del elemento, pero añade una barra de scroll para poder moverse dentro del elemento y ver el resto*/
+    overflow: auto; /*Cambia la propiedad de overflow según sea lo necesario*/
+    /* Para usar la propiedad de "overflow" es necesario indicar primero el alto ("height") del elemento contenedor*/
+    /* La propiedad de "overflow" también se puede especificar en horizontal o vertical, con "overflow-x" y "overflow-y" respectivamente*/
+}
