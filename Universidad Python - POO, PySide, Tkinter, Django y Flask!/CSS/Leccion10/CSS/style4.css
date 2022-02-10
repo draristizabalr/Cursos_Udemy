@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+    border: 3px solid cornflowerblue;
+    padding: 15px;
+}   
+div.contenedor p{
+    color: cornflowerblue;
+    text-align: center;
+    margin: 20px 0px;
+}
+div.contenedor img{
+    display: block;
+    margin: auto;
+    opacity: 0.3;
+}
+div.contenedor img:hover{
+    opacity: 1;
+}
