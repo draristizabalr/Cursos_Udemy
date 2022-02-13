@@ -28,4 +28,8 @@ console.log(typeof miNumero);
 let edad2 = Number(miNumero);
 console.log(typeof edad);
 
-let resultado =
+if (isNaN(edad2)){
+    console.log('No es un número.')
+}else{
+    console.log(edad2)
+}
