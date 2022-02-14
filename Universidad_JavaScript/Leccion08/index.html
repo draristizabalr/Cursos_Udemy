@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo DOM con JavaScript</title>
+    <style>
+        .azul{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="cabecero" class="azul">Ejemplo DOM con JavaScript</h1>
+    <!-- <p id="parrafo"Saludos!</p> -->
+    <p class="azul">Saludos!</p>
+    <p class="azul">Segundo párrafo</p>
+    <!-- Si se va a usar un script es necesario agragarlos después de los elementos HTML, si se quiere leer los elementos HTML -->
+    <script>
+        // ACCEDER A LOS ELEMENTOS HTML SEGÚN EL ID
+        // let cabecero = document.getElementById('cabecero');
+        // console.log(`valor de cabecero:  ${cabecero.innerHTML}`);
+        // let parrafo = document.getElementById('parrafo');
+        // console.log(`Valor del párrafo:   ${parrafo.innerHTML}`)
+        // console.log('Saludos desde JavaScript');
+        // parrafo.innerHTML = 'Nuevo valor del párrafo'
+        // cabecero.innerHTML = 'Nuevo cabecero'
+
+        // ACCEDER A LOS ELEMENTOS DE HTML SEGÚN EL TIPO DE ELEMENTO
+        // let parrafos = document.getElementsByTagName('p');
+        // console.log(`No de párrafos: ${parrafos.length}`);
+        // for (let i = 0; i<parrafos.length; i++){
+        //     console.log(`i:${i} - ${parrafos[i].innerHTML}`)
+        // }
+
+        // ACCEDER A LOS ELEMENTOS HTML SEGÚN SU CLASE
+        // let elementos = document.getElementsByClassName('azul');
+        // console.log(`No de párrafos: ${elementos.length}`);
+        // for (elemento of elementos){
+        //     console.log(elemento.innerHTML)
+        // } 
+
+        // ACCEDER A LOS ELEMENTOS SEGÚN SU CLASE Y TIPO DE ELEMENTO
+        let elementos = document.querySelectorAll('p.azul');
+        console.log(`No de párrafos: ${elementos.length}`);
+        for (elemento of elementos){
+            console.log(elemento.innerHTML)
+        } 
+
+        
+    </script>
+</body>
+</html>

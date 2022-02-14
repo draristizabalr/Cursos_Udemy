@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+<body>
+    <h1 id="titulo">Manejo DOM con JavaScript</h1>
+    <button onclick="cambiar()">Cambiar</button>
+    <img id="imagen" src="https://globalmentoring.com.mx/imagenes/javascript.png">
+    <script>
+        // ESTO REEMPLAZARÁ TODOS LOS ELEMEMTOS USADOS, EN EL MOMENTO EN QUE SE VUELVA A USAR
+        // document.write('<br/> Saludos desde JavaScript')
+        function cambiar(){
+            // document.getElementById('titulo').innerHTML = 'Nuevo Título'
+            document.getElementById('imagen').src = 'https://globalmentoring.com.mx/imagenes/html5.png';
+            document.getElementById('titulo').style.color = 'red';
+        }
+    </script>
+</body>
+</html>
