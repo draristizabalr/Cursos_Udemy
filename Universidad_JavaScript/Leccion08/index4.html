@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+<!-- <body onload="entrar()"> -->
+<body>
+    <h1 id="title">Manejo DOM con JavaScript</h1>
+    <br/>
+    Nombre: <input type="text" class="cajaTexto"/>
+    <br/><br/>
+    Apellido: <input type="text" class="cajaTexto"/>
+    <br/><br/>
+    Edad: <input type="text" class="cajaTexto"/>
+    <br/><br/>
+    Area de Trabajo: <input type="text" class="cajaTexto"/>
+    <br/><br/>
+    Salario: <input type="text" class="cajaTexto"/>
+    <!-- <div id="show"></div> -->
+    <script>
+        // document.getElementById('title').onclick = cambiarTexto;
+
+        // function cambiarTexto(){
+        //     document.getElementById('show').innerHTML = 'Nuevo Contenido'
+        // } 
+
+        // function entrar(){
+        //     alert('Entrando a la página web');
+        //     let texto = '';
+        //     if (navigator.cookieEnabled){
+        //         texto = 'Las cookies están habilitadas'
+        //     }else{
+        //         texto = 'Las cookies están deshabilitadas'
+        //     }
+        //     document.getElementById('show').innerHTML = texto
+        // }
+        
+        // document.getElementById('cajaTexto').onchange = convertir
+        // document.getElementById('title').onmousedown = rojo;
+        // document.getElementById('title').onmouseup = remove;
+        // document.getElementById('title').onclick = verde;
+
+        // function convertir(){
+        //     document.getElementById('cajaTexto').value = document.getElementById('cajaTexto').value.toUpperCase();
+        // }
+
+        // function rojo(){
+        //     console.log('Método onmousedown que cambia el color a rojo')
+        //     document.getElementById('title').style.color = 'red';
+        // }
+
+        // function verde(){
+        //     console.log('Método onclick que cambia el color a verde')
+        //     document.getElementById('title').style.color = 'green';
+        // }
+
+        // function remove(){
+        //     console.log('Método onmouseup que pone el color por default')
+        //     document.getElementById('title').style.color = '';
+        // }
+
+        const cajaTexto = document.getElementsByClassName('cajaTexto')
+        for (elemento of cajaTexto){
+            elemento.onfocus = cambiar;
+            elemento.onblur = remover;
+        }
+
+        function cambiar(){
+            this.style.background = 'yellow';
+        }
+        function remover(){
+            this.style.background = 'white';
+        }
+
+
+    </script>
+</body>
+</html>
