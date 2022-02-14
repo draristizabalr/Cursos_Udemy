@@ -37,8 +37,8 @@
 
             <!--En este ejemplo se deja por defecto que los valores numéricos sean enteros únicamente, pero si se necesita
             que tengan valores con punto decimal se debe agregar el argumento "(step='any')"-->
-            <label for='age'>Age:</label><br/>
-            <input type='number' if='age' name='edad' placeholder='Age' max='50' min='0'/><br/>
+            <label for='edad'>Age:</label><br/>
+            <input type='number' if='edad' name='edad' placeholder='Age' max='50' min='0'/><br/>
 
             <label>Gender</label>
             <input type='radio' id='female' name='gender' value='female'/>
