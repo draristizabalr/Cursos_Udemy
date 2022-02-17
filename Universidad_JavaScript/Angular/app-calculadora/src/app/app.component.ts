@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Mi primera app en Angular';
+  title = "Aplicacion Calculadora";
+
+  firstNumber:number = 0;
+  secondNumber:number = 0;
+  result:number = 0;
+
+  add():void{
+    this.result = this.firstNumber + this.secondNumber;
+  }
 }
