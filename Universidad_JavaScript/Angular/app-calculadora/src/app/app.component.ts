@@ -6,13 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "Aplicacion Calculadora";
+  titulo = 'Aplicacion Calculadora 2';
 
-  firstNumber:number = 0;
-  secondNumber:number = 0;
-  result:number = 0;
+  // firstNumber:number = 0;
+  // secondNumber:number = 0;
+  resultado:number = 0;
 
-  add():void{
-    this.result = this.firstNumber + this.secondNumber;
+  // sumar():void{
+  //   this.resultado = this.firstNumber + this.secondNumber;
+  // }
+
+  mostrarResultado(resultadoEvento:number){
+    this.resultado = resultadoEvento
   }
+
 }
