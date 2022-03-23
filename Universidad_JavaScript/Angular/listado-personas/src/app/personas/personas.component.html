@@ -1,0 +1,11 @@
+<div>
+    <button class="btn btn-danger" (click)="agregar()">+</button>
+</div>
+
+<app-persona
+*ngFor="let persona of personas; let i = index"
+[persona]="persona" [indice]="i"
+>
+</app-persona>
+
+<router-outlet></router-outlet>
